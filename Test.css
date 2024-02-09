@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Alexandria', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+body{
+    background:linear-gradient(to right ,#29323C,#485563);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.All_Project{
+    background:linear-gradient(to right ,#48C6EF,#6F86D6);
+    width: 350px;
+    height:350px;
+    border-radius: 12px;
+}
+.Point{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.Circle{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius:80px;
+}
+/* Photo */
+.Imge{
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px;
+}
+.Imge img{
+    width: 35%;
+    border-radius: 50%;
+}
+/* Information */
+.Information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#h1{
+    height: 35px;
+    color: white;
+}
+strong{
+    color: white;
+    font-size: 20px;
+}
+p{
+    background-image: linear-gradient(to right , #09203F , #537895);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+/* end */
+.Contener_Personal{
+    background:linear-gradient(to right , #A1C4FD , #C2E9FB);
+    width: 257px;
+    height: 84px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 30px;
+    margin-top: 12px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+small{
+    background-image: linear-gradient(to right , #0BA360 , #3CBA92);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 18px;
+    font-weight:900;
+}
+i{
+    color: #0BA360;
+    background: linear-gradient(to right , #FFECD2 , #FCB69F);
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
